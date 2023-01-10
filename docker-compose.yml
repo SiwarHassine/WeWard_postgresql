@@ -1,0 +1,57 @@
+version: "2.2"
+services:
+  postgres:
+    image: postgres:3
+    build:
+      context: .
+      dockerfile: ./db/Dockerfile
+    volumes:
+        - ./db/db-data:/var/lib/postgres
+    cpuset: "1"
+    mem_reservation: "125M"
+    mem_limit: "250M" 
+    restart: always
+    networks:
+       - weward_network
+       
+  wordpress:
+    image: wordpress:3
+    build:
+      context: .
+      dockerfile: ./wordpress/Dockerfile
+    volumes:
+        - ./wordpress:/var/www/html
+    cpuset: "1"
+    mem_reservation: "125M"
+    mem_limit: "250M" 
+    links:
+        - postgres
+    restart: always
+    networks:
+       - weward_network
+       
+  nginx:
+    image: nginx:3
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
+    
+    volumes:
+        - ./nginx:/etc/nginx/conf.d
+        - ./logs/nginx:/var/log/nginx
+        - ./wordpress:/var/www/html
+    cpuset: "1"
+    mem_reservation: "125M"
+    mem_limit: "250M"     
+    links:
+        - wordpress
+    restart: always
+    networks:
+       - weward_network
+   
+networks:
+  weward_network:
+    driver: bridge
+    
+  
+    

@@ -1,0 +1,197 @@
+2023/01/05 14:23:11 [notice] 1#1: using the "epoll" event method
+2023/01/05 14:23:11 [notice] 1#1: nginx/1.23.3
+2023/01/05 14:23:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/05 14:23:11 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2023/01/05 14:23:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/05 14:23:11 [notice] 1#1: start worker processes
+2023/01/05 14:23:11 [notice] 1#1: start worker process 20
+2023/01/05 14:23:11 [notice] 1#1: start worker process 21
+2023/01/05 14:51:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/05 14:51:04 [notice] 21#21: gracefully shutting down
+2023/01/05 14:51:04 [notice] 20#20: gracefully shutting down
+2023/01/05 14:51:04 [notice] 21#21: exiting
+2023/01/05 14:51:04 [notice] 20#20: exiting
+2023/01/05 14:51:04 [notice] 21#21: exit
+2023/01/05 14:51:04 [notice] 20#20: exit
+2023/01/05 14:51:04 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/01/05 14:51:04 [notice] 1#1: worker process 20 exited with code 0
+2023/01/05 14:51:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/05 14:51:04 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/01/05 14:51:04 [notice] 1#1: worker process 21 exited with code 0
+2023/01/05 14:51:04 [notice] 1#1: exit
+2023/01/05 14:51:24 [notice] 1#1: using the "epoll" event method
+2023/01/05 14:51:24 [notice] 1#1: nginx/1.23.3
+2023/01/05 14:51:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/05 14:51:24 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2023/01/05 14:51:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/05 14:51:24 [notice] 1#1: start worker processes
+2023/01/05 14:51:24 [notice] 1#1: start worker process 20
+2023/01/05 14:51:24 [notice] 1#1: start worker process 21
+2023/01/05 14:52:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/05 14:52:02 [notice] 21#21: gracefully shutting down
+2023/01/05 14:52:02 [notice] 21#21: exiting
+2023/01/05 14:52:02 [notice] 21#21: exit
+2023/01/05 14:52:02 [notice] 20#20: gracefully shutting down
+2023/01/05 14:52:02 [notice] 20#20: exiting
+2023/01/05 14:52:02 [notice] 20#20: exit
+2023/01/05 14:52:02 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/01/05 14:52:02 [notice] 1#1: worker process 21 exited with code 0
+2023/01/05 14:52:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/05 14:52:02 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/01/05 14:52:02 [notice] 1#1: worker process 20 exited with code 0
+2023/01/05 14:52:02 [notice] 1#1: exit
+2023/01/05 14:53:35 [notice] 1#1: using the "epoll" event method
+2023/01/05 14:53:35 [notice] 1#1: nginx/1.23.3
+2023/01/05 14:53:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/05 14:53:35 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2023/01/05 14:53:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/05 14:53:35 [notice] 1#1: start worker processes
+2023/01/05 14:53:35 [notice] 1#1: start worker process 20
+2023/01/05 14:53:35 [notice] 1#1: start worker process 21
+2023/01/05 15:02:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/05 15:02:51 [notice] 20#20: gracefully shutting down
+2023/01/05 15:02:51 [notice] 20#20: exiting
+2023/01/05 15:02:51 [notice] 21#21: gracefully shutting down
+2023/01/05 15:02:51 [notice] 20#20: exit
+2023/01/05 15:02:51 [notice] 21#21: exiting
+2023/01/05 15:02:51 [notice] 21#21: exit
+2023/01/05 15:02:51 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/01/05 15:02:51 [notice] 1#1: worker process 20 exited with code 0
+2023/01/05 15:02:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/05 15:02:51 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/01/05 15:02:51 [notice] 1#1: worker process 21 exited with code 0
+2023/01/05 15:02:51 [notice] 1#1: exit
+2023/01/05 15:07:37 [notice] 1#1: using the "epoll" event method
+2023/01/05 15:07:37 [notice] 1#1: nginx/1.23.3
+2023/01/05 15:07:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/05 15:07:37 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2023/01/05 15:07:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/05 15:07:37 [notice] 1#1: start worker processes
+2023/01/05 15:07:37 [notice] 1#1: start worker process 20
+2023/01/05 15:07:37 [notice] 1#1: start worker process 21
+2023/01/05 15:11:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/05 15:11:17 [notice] 21#21: gracefully shutting down
+2023/01/05 15:11:17 [notice] 20#20: gracefully shutting down
+2023/01/05 15:11:17 [notice] 21#21: exiting
+2023/01/05 15:11:17 [notice] 20#20: exiting
+2023/01/05 15:11:17 [notice] 21#21: exit
+2023/01/05 15:11:17 [notice] 20#20: exit
+2023/01/05 15:11:17 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/01/05 15:11:17 [notice] 1#1: worker process 21 exited with code 0
+2023/01/05 15:11:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/05 15:11:17 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/01/05 15:11:17 [notice] 1#1: worker process 20 exited with code 0
+2023/01/05 15:11:17 [notice] 1#1: exit
+2023/01/05 15:12:09 [notice] 1#1: using the "epoll" event method
+2023/01/05 15:12:09 [notice] 1#1: nginx/1.23.3
+2023/01/05 15:12:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/05 15:12:09 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2023/01/05 15:12:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/05 15:12:09 [notice] 1#1: start worker processes
+2023/01/05 15:12:09 [notice] 1#1: start worker process 20
+2023/01/05 15:12:09 [notice] 1#1: start worker process 21
+2023/01/05 15:24:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/05 15:24:00 [notice] 20#20: gracefully shutting down
+2023/01/05 15:24:00 [notice] 20#20: exiting
+2023/01/05 15:24:00 [notice] 20#20: exit
+2023/01/05 15:24:00 [notice] 21#21: gracefully shutting down
+2023/01/05 15:24:00 [notice] 21#21: exiting
+2023/01/05 15:24:00 [notice] 21#21: exit
+2023/01/05 15:24:00 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/01/05 15:24:00 [notice] 1#1: worker process 20 exited with code 0
+2023/01/05 15:24:00 [notice] 1#1: worker process 21 exited with code 0
+2023/01/05 15:24:00 [notice] 1#1: exit
+2023/01/05 16:07:52 [notice] 1#1: using the "epoll" event method
+2023/01/05 16:07:52 [notice] 1#1: nginx/1.23.3
+2023/01/05 16:07:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/05 16:07:52 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2023/01/05 16:07:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/05 16:07:52 [notice] 1#1: start worker processes
+2023/01/05 16:07:52 [notice] 1#1: start worker process 19
+2023/01/05 16:07:52 [notice] 1#1: start worker process 20
+2023/01/05 16:11:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/05 16:11:53 [notice] 19#19: gracefully shutting down
+2023/01/05 16:11:53 [notice] 19#19: exiting
+2023/01/05 16:11:53 [notice] 19#19: exit
+2023/01/05 16:11:53 [notice] 20#20: gracefully shutting down
+2023/01/05 16:11:53 [notice] 20#20: exiting
+2023/01/05 16:11:53 [notice] 20#20: exit
+2023/01/05 16:11:53 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2023/01/05 16:11:53 [notice] 1#1: worker process 19 exited with code 0
+2023/01/05 16:11:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/05 16:11:53 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/01/05 16:11:53 [notice] 1#1: worker process 20 exited with code 0
+2023/01/05 16:11:53 [notice] 1#1: exit
+2023/01/05 16:14:01 [notice] 1#1: using the "epoll" event method
+2023/01/05 16:14:01 [notice] 1#1: nginx/1.23.3
+2023/01/05 16:14:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/05 16:14:01 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2023/01/05 16:14:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/05 16:14:01 [notice] 1#1: start worker processes
+2023/01/05 16:14:01 [notice] 1#1: start worker process 20
+2023/01/05 16:14:01 [notice] 1#1: start worker process 21
+2023/01/05 20:51:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/05 20:51:47 [notice] 21#21: gracefully shutting down
+2023/01/05 20:51:47 [notice] 20#20: gracefully shutting down
+2023/01/05 20:51:47 [notice] 21#21: exiting
+2023/01/05 20:51:47 [notice] 20#20: exiting
+2023/01/05 20:51:47 [notice] 20#20: exit
+2023/01/05 20:51:47 [notice] 21#21: exit
+2023/01/05 20:51:47 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/01/05 20:51:47 [notice] 1#1: worker process 20 exited with code 0
+2023/01/05 20:51:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/05 20:51:47 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/01/05 20:51:47 [notice] 1#1: worker process 21 exited with code 0
+2023/01/05 20:51:47 [notice] 1#1: exit
+2023/01/05 21:02:00 [notice] 1#1: using the "epoll" event method
+2023/01/05 21:02:00 [notice] 1#1: nginx/1.23.3
+2023/01/05 21:02:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/05 21:02:00 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2023/01/05 21:02:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/05 21:02:00 [notice] 1#1: start worker processes
+2023/01/05 21:02:00 [notice] 1#1: start worker process 20
+2023/01/05 21:02:00 [notice] 1#1: start worker process 21
+2023/01/05 21:07:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/05 21:07:13 [notice] 21#21: gracefully shutting down
+2023/01/05 21:07:13 [notice] 21#21: exiting
+2023/01/05 21:07:13 [notice] 21#21: exit
+2023/01/05 21:07:13 [notice] 20#20: gracefully shutting down
+2023/01/05 21:07:13 [notice] 20#20: exiting
+2023/01/05 21:07:13 [notice] 20#20: exit
+2023/01/05 21:07:14 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/01/05 21:07:14 [notice] 1#1: worker process 20 exited with code 0
+2023/01/05 21:07:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/05 21:07:14 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/01/05 21:07:14 [notice] 1#1: worker process 21 exited with code 0
+2023/01/05 21:07:14 [notice] 1#1: exit
+2023/01/05 21:49:02 [notice] 1#1: using the "epoll" event method
+2023/01/05 21:49:02 [notice] 1#1: nginx/1.23.3
+2023/01/05 21:49:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/01/05 21:49:02 [notice] 1#1: OS: Linux 5.15.0-56-generic
+2023/01/05 21:49:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/01/05 21:49:02 [notice] 1#1: start worker processes
+2023/01/05 21:49:02 [notice] 1#1: start worker process 20
+2023/01/05 21:49:02 [notice] 1#1: start worker process 21
+2023/01/05 21:52:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/01/05 21:52:50 [notice] 21#21: gracefully shutting down
+2023/01/05 21:52:50 [notice] 21#21: exiting
+2023/01/05 21:52:50 [notice] 21#21: exit
+2023/01/05 21:52:50 [notice] 20#20: gracefully shutting down
+2023/01/05 21:52:50 [notice] 20#20: exiting
+2023/01/05 21:52:50 [notice] 20#20: exit
+2023/01/05 21:52:50 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/01/05 21:52:50 [notice] 1#1: worker process 20 exited with code 0
+2023/01/05 21:52:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/01/05 21:52:50 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/01/05 21:52:50 [notice] 1#1: worker process 21 exited with code 0
+2023/01/05 21:52:50 [notice] 1#1: exit
+2023/01/08 21:04:12 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18
+2023/01/08 21:04:21 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18
+2023/01/08 21:04:30 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18
+2023/01/08 21:04:39 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18
+2023/01/08 21:04:46 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18
+2023/01/08 21:04:53 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18
+2023/01/08 21:05:02 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18
+2023/01/08 21:05:15 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18
+2023/01/08 21:05:33 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18
+2023/01/08 21:06:05 [emerg] 1#1: host not found in upstream "wordpress" in /etc/nginx/conf.d/wordpress.conf:18

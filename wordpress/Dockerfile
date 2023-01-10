@@ -1,0 +1,7 @@
+FROM ntninja/wordpress-postgresql:latest
+ENV WORDPRESS_DB_NAME=postgres
+ENV WORDPRESS_TABLE_PREFIX=wp_
+ENV WORDPRESS_DB_HOST=postgres
+ENV WORDPRESS_DB_PASSWORD=postgres
+EXPOSE 9000
+
